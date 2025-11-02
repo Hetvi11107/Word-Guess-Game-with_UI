@@ -27,16 +27,16 @@ The game ends when:
 ## 🧾 Project Structure
 word-guess-game/<br>
 │<br>
-├── app.py                    # Main Flask application<br>
+├── app.py                    <br>
 ├── templates/<br>
-│   ├── gamehomepage.html      # Start screen<br>
-│   └── gameplay.html          # Game <br>
+│   ├── gamehomepage.html     <br>
+│   └── gameplay.html          <br>
 │<br>
 ├── static/<br>
-│   └── game.css               # Styling for both pages<br>
+│   └── game.css               <br>
 │<br>
-├── requirements.txt           # Python dependencies<br>
-└── README.md                  # Project documentation<br>
+├── requirements.txt           <br>
+└── README.md                  <br>
 
 ## ⚙️ Installation and Setup
 ## 1️⃣ Clone this repository
