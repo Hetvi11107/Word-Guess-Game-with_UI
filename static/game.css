@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(165, 207, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.whatsyournamebox {
+    width: 700px;
+    min-height: 400px;
+    background-color: rgb(213, 235, 255);
+    border-radius: 5%;
+    border: 2px solid rgb(96, 95, 95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.whatsyournamebox h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.letter-boxes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.action-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.action-row input[type="text"] {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 20px;
+}
+
+button,
+.btn-link,
+.buttons-row a {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover,
+.btn-link:hover,
+.buttons-row a:hover {
+    background-color: #77b7ff;
+    color: black;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #333;
+}

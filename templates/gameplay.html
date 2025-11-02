@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='game.css') }}">
+</head>
+<body>
+  <div class="whatsyournamebox">
+    <h1>Guess the Country Name!</h1>
+
+    <div class="letter-boxes">  
+      {% for letter in word %}
+        <div class="box">{{ letter if letter != '_' else '' }}</div>
+      {% endfor %}
+    </div>
+
+    <p>Remaining guesses: {{ guesses }}</p>
+
+    {% if not game_over %}
+      <form method="post" class="action-row">
+        <input type="text" name="guess" maxlength="1" required />
+        <div class="buttons-row">
+          <button type="submit">Submit</button>
+          <a href="{{ url_for('home') }}">Play Again</a>
+        </div>
+      </form>
+    {% elif game_over == 'win' %}
+      <h2>You Win!</h2>
+      <a href="{{ url_for('home') }}" class="btn-link">Play Again</a>
+    {% else %}
+      <h2>You Lost! Word was "{{ actual_word }}"</h2>
+      <a href="{{ url_for('home') }}" class="btn-link">Play Again</a>
+    {% endif %}
+    
+  </div>
+</body>
+</html>
