@@ -7,22 +7,22 @@ The player has to guess letters to reveal a hidden country name before running o
 
 ## 🚀 Features
 
-🎮 Interactive country name guessing game
-💡 10 chances to guess the correct word
-🏁 Win/Lose message at the end of each round
-🔁 Option to replay the game instantly
-💻 Simple Flask backend with session-based state
-🎨 Responsive UI with HTML & CSS
+🎮 Interactive country name guessing game<br>
+💡 10 chances to guess the correct word<br>
+🏁 Win/Lose message at the end of each round<br>
+🔁 Option to replay the game instantly<br>
+💻 Simple Flask backend with session-based state<br>
+🎨 Responsive UI with HTML & CSS<br>
 
 ## 🧠 How the Game Works
 
-The game randomly selects a country name from the list.
-You have 10 guesses to find all the letters.
-Each correct letter fills its position in the word.
-Each wrong guess decreases your remaining chances.
-The game ends when:
-    ✅ You guess all letters → You Win!
-    ❌ You run out of guesses → You Lose!
+The game randomly selects a country name from the list<br>
+You have 10 guesses to find all the letters.<br>
+Each correct letter fills its position in the word.<br>
+Each wrong guess decreases your remaining chances.<br>
+The game ends when:<br>
+    ✅ You guess all letters → You Win!<br>
+    ❌ You run out of guesses → You Lose!<br>
 
 ## 🧾 Project Structure
 word-guess-game/<br>
@@ -61,7 +61,6 @@ Visit → http://127.0.0.1:5000
 
 ## 🧩 Requirements
 
-Create a file named requirements.txt and include:
 Flask==3.0.3
 
 ## 🖼️ Screens
@@ -70,22 +69,22 @@ Home Page:
 ➡️ Click “Start” to begin the game
 
 Game Page:
-Enter a letter
-See remaining guesses
-Get instant win/lose feedback
+Enter a letter<br>
+See remaining guesses<br>
+Get instant win/lose feedback<br>
 
 ## 🛠️ Technologies Used
 
-Python (Flask) — Backend web framework
-HTML5, CSS3 — Frontend design
-Jinja2 — Template rendering
+Python (Flask) — Backend web framework<br>
+HTML5, CSS3 — Frontend design<br>
+Jinja2 — Template rendering<br>
 
 ## 📦 Future Enhancements
 
-✅ Add scoring system
-🎨 Improve animations
-🌍 Add difficulty levels
-📱 Make fully mobile responsive
+✅ Add scoring system<br>
+🎨 Improve animations<br>
+🌍 Add difficulty levels<br>
+📱 Make fully mobile responsive<br>
 
 ## 💡 Author
 🎓 Diploma in IT | 💡 Tech & Cyber Security 🌐 GitHub Profile https://github.com/Hetvi11107
